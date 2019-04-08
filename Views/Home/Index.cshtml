@@ -1,0 +1,23 @@
+﻿<h1 class="text-center">
+    Fullness: <span id="fullness">@ViewBag.fullness</span>||
+    Happiness: <span id="happiness">@ViewBag.happiness</span> ||
+    Meals: <span id="meals">@ViewBag.meals</span> ||
+    Energy: <span id="energy">@ViewBag.Energy</span>  
+</h1>
+
+<div class="playground">
+        <img src="~/images/cat.jpg" alt="" id="cat">
+        <h3 id="message">@ViewBag.message</h3>
+</div>
+
+<div class="row text-center" id ="toolbar">
+    <a  class="btn btn-primary btn-lg" onclick="feed()">Feed</a>
+    <a  class="btn btn-primary btn-lg" onclick="play()">Play</a>
+    <a  class="btn btn-primary btn-lg" onclick="work()">Work</a>
+    <a  class="btn btn-primary btn-lg" onclick="sleep()">Sleep</a>
+</div>
+
+<div class="row text-center" id ="restart">
+    <a  class="btn btn-primary btn-lg" href="/restart">Restart</a>
+
+</div>
